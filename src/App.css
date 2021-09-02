@@ -1,0 +1,79 @@
+/* Clearouts and presets */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  padding: 0.5em 0.75em;
+  font-weight: bold;
+  background-color: white;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #ff6600;
+}
+
+li {
+  list-style: none;
+  margin-right: 1em;
+}
+
+/* Modifier classes for visual consistency across components*/
+
+.container {
+  margin: 0 5%;
+}
+
+.post-block {
+  padding: 1em 2em;
+}
+
+.bg-orange {
+  background-color: #ff6600;
+}
+
+.bg-tan {
+  background-color: #f6f6ef;
+}
+
+.text-gray {
+  color: #5e5e5e;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.no-space {
+  justify-content: flex-start;
+}
+
+/* Nav menu specific CSS */
+
+.logo {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.header-menu {
+  min-height: 10vh;
+  padding: 1em 2em;
+}
+
+.sub-menu {
+  gap: 2em;
+}
